@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		373B93CB1C92758E003CC2CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B93CA1C92758E003CC2CD /* AppDelegate.swift */; };
+		373B93CD1C92758E003CC2CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B93CC1C92758E003CC2CD /* ViewController.swift */; };
+		373B93CF1C92758E003CC2CD /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B93CE1C92758E003CC2CD /* Document.swift */; };
+		373B93D11C92758F003CC2CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 373B93D01C92758F003CC2CD /* Assets.xcassets */; };
+		373B93D41C92758F003CC2CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 373B93D21C92758F003CC2CD /* Main.storyboard */; };
+		373B93DF1C927590003CC2CD /* MathActivitityCreatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B93DE1C927590003CC2CD /* MathActivitityCreatorTests.swift */; };
+		373B93EA1C927590003CC2CD /* MathActivitityCreatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 373B93E91C927590003CC2CD /* MathActivitityCreatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		373B93DB1C927590003CC2CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373B93BF1C92758E003CC2CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 373B93C61C92758E003CC2CD;
+			remoteInfo = MathActivitityCreator;
+		};
+		373B93E61C927590003CC2CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 373B93BF1C92758E003CC2CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 373B93C61C92758E003CC2CD;
+			remoteInfo = MathActivitityCreator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		373B93C71C92758E003CC2CD /* MathActivitityCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathActivitityCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		373B93CA1C92758E003CC2CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		373B93CC1C92758E003CC2CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		373B93CE1C92758E003CC2CD /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		373B93D01C92758F003CC2CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		373B93D31C92758F003CC2CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		373B93D51C92758F003CC2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373B93DA1C927590003CC2CD /* MathActivitityCreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathActivitityCreatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373B93DE1C927590003CC2CD /* MathActivitityCreatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathActivitityCreatorTests.swift; sourceTree = "<group>"; };
+		373B93E01C927590003CC2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		373B93E51C927590003CC2CD /* MathActivitityCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathActivitityCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		373B93E91C927590003CC2CD /* MathActivitityCreatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathActivitityCreatorUITests.swift; sourceTree = "<group>"; };
+		373B93EB1C927590003CC2CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		373B93C41C92758E003CC2CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373B93D71C927590003CC2CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373B93E21C927590003CC2CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		373B93BE1C92758E003CC2CD = {
+			isa = PBXGroup;
+			children = (
+				373B93C91C92758E003CC2CD /* MathActivitityCreator */,
+				373B93DD1C927590003CC2CD /* MathActivitityCreatorTests */,
+				373B93E81C927590003CC2CD /* MathActivitityCreatorUITests */,
+				373B93C81C92758E003CC2CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		373B93C81C92758E003CC2CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				373B93C71C92758E003CC2CD /* MathActivitityCreator.app */,
+				373B93DA1C927590003CC2CD /* MathActivitityCreatorTests.xctest */,
+				373B93E51C927590003CC2CD /* MathActivitityCreatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		373B93C91C92758E003CC2CD /* MathActivitityCreator */ = {
+			isa = PBXGroup;
+			children = (
+				373B93CA1C92758E003CC2CD /* AppDelegate.swift */,
+				373B93CC1C92758E003CC2CD /* ViewController.swift */,
+				373B93CE1C92758E003CC2CD /* Document.swift */,
+				373B93D01C92758F003CC2CD /* Assets.xcassets */,
+				373B93D21C92758F003CC2CD /* Main.storyboard */,
+				373B93D51C92758F003CC2CD /* Info.plist */,
+			);
+			path = MathActivitityCreator;
+			sourceTree = "<group>";
+		};
+		373B93DD1C927590003CC2CD /* MathActivitityCreatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				373B93DE1C927590003CC2CD /* MathActivitityCreatorTests.swift */,
+				373B93E01C927590003CC2CD /* Info.plist */,
+			);
+			path = MathActivitityCreatorTests;
+			sourceTree = "<group>";
+		};
+		373B93E81C927590003CC2CD /* MathActivitityCreatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				373B93E91C927590003CC2CD /* MathActivitityCreatorUITests.swift */,
+				373B93EB1C927590003CC2CD /* Info.plist */,
+			);
+			path = MathActivitityCreatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		373B93C61C92758E003CC2CD /* MathActivitityCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373B93EE1C927590003CC2CD /* Build configuration list for PBXNativeTarget "MathActivitityCreator" */;
+			buildPhases = (
+				373B93C31C92758E003CC2CD /* Sources */,
+				373B93C41C92758E003CC2CD /* Frameworks */,
+				373B93C51C92758E003CC2CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MathActivitityCreator;
+			productName = MathActivitityCreator;
+			productReference = 373B93C71C92758E003CC2CD /* MathActivitityCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		373B93D91C927590003CC2CD /* MathActivitityCreatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373B93F11C927590003CC2CD /* Build configuration list for PBXNativeTarget "MathActivitityCreatorTests" */;
+			buildPhases = (
+				373B93D61C927590003CC2CD /* Sources */,
+				373B93D71C927590003CC2CD /* Frameworks */,
+				373B93D81C927590003CC2CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373B93DC1C927590003CC2CD /* PBXTargetDependency */,
+			);
+			name = MathActivitityCreatorTests;
+			productName = MathActivitityCreatorTests;
+			productReference = 373B93DA1C927590003CC2CD /* MathActivitityCreatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		373B93E41C927590003CC2CD /* MathActivitityCreatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 373B93F41C927590003CC2CD /* Build configuration list for PBXNativeTarget "MathActivitityCreatorUITests" */;
+			buildPhases = (
+				373B93E11C927590003CC2CD /* Sources */,
+				373B93E21C927590003CC2CD /* Frameworks */,
+				373B93E31C927590003CC2CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				373B93E71C927590003CC2CD /* PBXTargetDependency */,
+			);
+			name = MathActivitityCreatorUITests;
+			productName = MathActivitityCreatorUITests;
+			productReference = 373B93E51C927590003CC2CD /* MathActivitityCreatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		373B93BF1C92758E003CC2CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GregApps;
+				TargetAttributes = {
+					373B93C61C92758E003CC2CD = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					373B93D91C927590003CC2CD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 373B93C61C92758E003CC2CD;
+					};
+					373B93E41C927590003CC2CD = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 373B93C61C92758E003CC2CD;
+					};
+				};
+			};
+			buildConfigurationList = 373B93C21C92758E003CC2CD /* Build configuration list for PBXProject "MathActivitityCreator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 373B93BE1C92758E003CC2CD;
+			productRefGroup = 373B93C81C92758E003CC2CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				373B93C61C92758E003CC2CD /* MathActivitityCreator */,
+				373B93D91C927590003CC2CD /* MathActivitityCreatorTests */,
+				373B93E41C927590003CC2CD /* MathActivitityCreatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		373B93C51C92758E003CC2CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373B93D11C92758F003CC2CD /* Assets.xcassets in Resources */,
+				373B93D41C92758F003CC2CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373B93D81C927590003CC2CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373B93E31C927590003CC2CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		373B93C31C92758E003CC2CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373B93CD1C92758E003CC2CD /* ViewController.swift in Sources */,
+				373B93CB1C92758E003CC2CD /* AppDelegate.swift in Sources */,
+				373B93CF1C92758E003CC2CD /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373B93D61C927590003CC2CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373B93DF1C927590003CC2CD /* MathActivitityCreatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		373B93E11C927590003CC2CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				373B93EA1C927590003CC2CD /* MathActivitityCreatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		373B93DC1C927590003CC2CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 373B93C61C92758E003CC2CD /* MathActivitityCreator */;
+			targetProxy = 373B93DB1C927590003CC2CD /* PBXContainerItemProxy */;
+		};
+		373B93E71C927590003CC2CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 373B93C61C92758E003CC2CD /* MathActivitityCreator */;
+			targetProxy = 373B93E61C927590003CC2CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		373B93D21C92758F003CC2CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				373B93D31C92758F003CC2CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		373B93EC1C927590003CC2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		373B93ED1C927590003CC2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		373B93EF1C927590003CC2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MathActivitityCreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bernsleone.gregapps.MathActivitityCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		373B93F01C927590003CC2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MathActivitityCreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bernsleone.gregapps.MathActivitityCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		373B93F21C927590003CC2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MathActivitityCreatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bernsleone.gregapps.MathActivitityCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathActivitityCreator.app/Contents/MacOS/MathActivitityCreator";
+			};
+			name = Debug;
+		};
+		373B93F31C927590003CC2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MathActivitityCreatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bernsleone.gregapps.MathActivitityCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MathActivitityCreator.app/Contents/MacOS/MathActivitityCreator";
+			};
+			name = Release;
+		};
+		373B93F51C927590003CC2CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MathActivitityCreatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bernsleone.gregapps.MathActivitityCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MathActivitityCreator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		373B93F61C927590003CC2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MathActivitityCreatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bernsleone.gregapps.MathActivitityCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MathActivitityCreator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		373B93C21C92758E003CC2CD /* Build configuration list for PBXProject "MathActivitityCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373B93EC1C927590003CC2CD /* Debug */,
+				373B93ED1C927590003CC2CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		373B93EE1C927590003CC2CD /* Build configuration list for PBXNativeTarget "MathActivitityCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373B93EF1C927590003CC2CD /* Debug */,
+				373B93F01C927590003CC2CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		373B93F11C927590003CC2CD /* Build configuration list for PBXNativeTarget "MathActivitityCreatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373B93F21C927590003CC2CD /* Debug */,
+				373B93F31C927590003CC2CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		373B93F41C927590003CC2CD /* Build configuration list for PBXNativeTarget "MathActivitityCreatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373B93F51C927590003CC2CD /* Debug */,
+				373B93F61C927590003CC2CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 373B93BF1C92758E003CC2CD /* Project object */;
+}
